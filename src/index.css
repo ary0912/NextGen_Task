@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.canvas {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin: 50px auto;
+  background-color: #f1f1f1;
+  border: 2px solid #333;
+}
+
+.object {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4287f5;
+  color: #fff;
+  font-weight: bold;
+  border: 1px solid #333;
+  cursor: move;
+}
+
+.handle {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border: 1px solid #333;
+}
+
+.top-left {
+  top: -5px;
+  left: -5px;
+  cursor: nwse-resize;
+}
+
+.top-right {
+  top: -5px;
+  right: -5px;
+  cursor: nesw-resize;
+}
+
+.bottom-left {
+  bottom: -5px;
+  left: -5px;
+  cursor: nesw-resize;
+}
+
+.bottom-right {
+  bottom: -5px;
+  right: -5px;
+  cursor: nwse-resize;
+}
